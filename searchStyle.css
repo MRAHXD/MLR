@@ -57,6 +57,7 @@ body {
     font-size: 1rem;
     font-weight: 700;
     color: white;
+    text-decoration: none;
 }
 
 .profile{
@@ -76,6 +77,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 60px;
 }
 
 
@@ -84,17 +86,127 @@ main {
     background-color: rgb(49, 44, 44);
     color: white;
     width: 300px;
-    line-height: 350px;
+    line-height: 340px;
     text-align: center;
     margin: 10px;
-    border-radius: 5px;
-    height: 350px;
+    border-radius: 10px;
+    height: 340px;
 }
 
 .img-1{
-    background-image: url("asserts/c++.jpeg");
+    background-image: url("asserts/c++free.jpeg");
     background-size: cover;
     height: 270px;
     margin: 10px;
+    border-radius: 5px;
 
 }
+
+h6{
+    position: absolute;
+    top: 230px;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.img-2{
+    background-image: url("asserts/javafree.jpg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.img-3{
+    background-image: url("asserts/javapaid.jpg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.img-4{
+    background-image: url("asserts/c++paid.png");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.img-7{
+    background-image: url("asserts/webdevfree.jpg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+h5{
+    position: relative;
+    bottom: 150px;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.img-8{
+    background-image: url("asserts/webdevpaid.jpg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.img-5{
+    background-image: url("asserts/dmfree.jpg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.img-6{
+    background-image: url("asserts/dmpaid.jpg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.img-9{
+    background-image: url("asserts/tradingfree.jpg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.img-10{
+    background-image: url("asserts/tradingpaid.jpg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.img-11{
+    background-image: url("asserts/videofree.jpg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.img-12{
+    background-image: url("asserts/videopaid.jpg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.unlink{
+    text-decoration: none;
+    color: white;
+}
+
+
