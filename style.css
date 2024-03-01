@@ -5,7 +5,7 @@
 
 .container {
     background-color: #0d0d0d;
-    height: 500px;
+    height: 550px;
 }
 
 .nav{
@@ -16,6 +16,7 @@
 }
 .name {
     color: white; font-family: sans-serif; font-weight:900; margin-left: 50px; font-size: 1.5rem;
+    margin-top: 10px;
 }
 
 .name:hover{
@@ -23,11 +24,12 @@
 }
 .btn-1 {
     margin-left: 75%;
-    height: 35px;
+    height: 40px;
     width: 110px;
     border-radius: 50px;
     border: none;
     font-weight: 600;
+    margin-top: 10px;
 
 }
 
@@ -38,7 +40,64 @@
 /* hero section */
 
 .hero{
-    height:300px;
-    background-color: white;
+    height:400px;
     margin-top: 70px;
+}
+
+.home-img {
+    height: 300px;
+    width: 300px;
+    background-image: url("asserts/books.jpg");
+    background-size: cover;
+    position: relative;
+    top: 50px;
+    display: inline-block;
+    left:70%;
+    border-radius: 10px;
+    }
+
+.home-img:hover{
+    transform: scale(1.05);
+    border: 3px #e20805 solid;
+}
+
+.btn-2{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.752);
+    height: 40px;
+    width: 110px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    background-color: #e20805;
+}
+
+.hero-txt-color{
+    color: white;
+}
+
+.btn-2:hover{
+    border: 3px solid white;
+}
+
+/* hero part 2 */
+.panel{
+    height:250px;
+    background-color: #e20805;
+}
+
+/* footer  */
+.foot {
+    height: 200px;
+    background-color: #0d0d0d;
+}
+
+.follow {
+    position: relative;
+    left: 70%;
+    text-decoration: none;
+    color: white;
+
+
+
 }

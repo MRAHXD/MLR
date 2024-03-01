@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(17, 16, 15); 
+}
+
+.nav{
+    height: 70px;
+    background-color: rgb(49, 44, 44);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.both{
+    height: 50px;
+    width: 40%;
+    display:flex;
+    margin-right: 30%;
+
+}
+
+.searchBar{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+    margin-left: 5%;
+    background-color: rgb(70, 61, 61);
+    border-radius: 20px;
+
+}
+
+.searchIcon{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    background-color: transparent;
+
+}
+
+.myC{
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.home{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
+.profile{
+    color: white;
+    background-color: rgb(17, 16, 15); 
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hero section  */
+main {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box {
+    float: left;
+    background-color: rgb(49, 44, 44);
+    color: white;
+    width: 300px;
+    line-height: 350px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    height: 350px;
+}
+
+.img-1{
+    background-image: url("asserts/c++.jpeg");
+    background-size: cover;
+    height: 270px;
+    margin: 10px;
+
+}
