@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(151, 110, 221);
+}
+.vid-container{
+    height: 400px;
+    /* background-color: rgb(149, 149, 190); */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.panel{
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.vid{
+    height: 100%;
+    width: 20%;
+    background-color: blue;
+}
+
+.listitems{
+    
+    color: white;
+    text-decoration: none;
+}
+
+.margin{
+    margin-top: 10px;
+}
+
